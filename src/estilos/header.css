@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80px;
+    margin:10px auto;
+}
+header h1{
+    margin: auto;
+    color: rgb(192, 187, 187);
+}
+header p{
+    margin: auto;
+    font-size: 1.2rem;
+    color: white;
+}

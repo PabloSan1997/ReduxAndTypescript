@@ -1,0 +1,72 @@
+.conte{
+    background: grey;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    left:calc((100% - 40%)/2);
+    top:10vh;
+    position: fixed;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:  0 0 100px black;
+}
+.conte h2{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background: black;
+    text-align: center;
+    color: white;
+}
+.conte .formulario{
+    height: 75%;
+    width: 100%;
+    margin: auto;
+}
+.conte .formulario .area-entrada{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 70%;
+    margin: auto;
+}
+.conte .formulario .area-entrada label{
+    margin: 2% auto 2% 10%;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+.conte .formulario .area-entrada input{
+    margin: 0 auto auto auto;
+    width: 80%;
+    outline: none;
+    border: 2px solid rgb(73, 73, 73);
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background: ghostwhite;
+    color: rgb(39, 39, 39);
+}
+.conte .formulario .area-boton{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    margin: auto;
+}
+.conte .formulario .area-boton .boton{
+    margin: auto;
+    padding: 2px 8px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 2px outset rgb(106, 106, 124);
+    border-radius: 10px;
+}
+.conte .formulario .area-boton .boton:hover{
+    background: rgb(212, 212, 212);
+}
+.conte .formulario .area-boton .boton:active{
+    border: 2px inset rgb(106, 106, 124);
+}
