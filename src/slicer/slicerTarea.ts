@@ -35,6 +35,7 @@ const sliceTarea: Slice = createSlice({
                 console.error("no se encuentra elemento")
             } else {
                 state.data[indice].estado = !estado[indice].estado;
+                guardar(state.data);
             }
         },
         mostr: (state, action) => {
